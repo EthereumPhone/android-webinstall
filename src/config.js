@@ -11,6 +11,10 @@ export default {
         {
             name: "Pixel 3",
             model: "blueline",
+        },
+        {
+            name: "Pixel 3XL",
+            model: "crosshatch",
         }
     ],
     RELEASE_VARIANTS: {

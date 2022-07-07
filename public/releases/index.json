@@ -11,6 +11,12 @@
             "variant": "minimal",
             "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_barbet_1.zip",
             "description": "ethOS 1.0"
+        }],
+        "crosshatch": [{
+            "version": "1.0.0",
+            "variant": "minimal",
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_crosshatch_1.zip",
+            "description": "ethOS 1.0"
         }]
     }
 }
