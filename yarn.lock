@@ -7945,10 +7945,10 @@
   "resolved" "https://registry.npmjs.org/methods/-/methods-1.1.2.tgz"
   "version" "1.1.2"
 
-"mhaas-android-fastboot@1.1.4":
-  "integrity" "sha512-7Z7u01mnpXFk6bQvKD4kXA5WTf95+1Wo8Ry0RjCGIL9HNO4HOTBAP9jN3ggOrdZnFD2lY9tXLzLEO4GL0VMJlQ=="
-  "resolved" "https://registry.npmjs.org/mhaas-android-fastboot/-/mhaas-android-fastboot-1.1.4.tgz"
-  "version" "1.1.4"
+"mhaas-android-fastboot@1.1.6":
+  "integrity" "sha512-FVePs1WKibqS1y7S3XKbZDjd/rgMCoXeqWBpVSw/PRpNK7bMqo4xXRwc9GilyCigaEK6KJDB3ONo1egpLkvWjg=="
+  "resolved" "https://registry.npmjs.org/mhaas-android-fastboot/-/mhaas-android-fastboot-1.1.6.tgz"
+  "version" "1.1.6"
   dependencies:
     "@zip.js/zip.js" "2.2.27"
 

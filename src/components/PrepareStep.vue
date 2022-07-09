@@ -6,7 +6,10 @@
             <div class="text-body-1">
                 <p>
                     This is an easy way to install
-                    {{ $root.$data.OS_NAME }} on your device. You’ll need an
+                    {{ $root.$data.OS_NAME }} on your device. 
+                    Your device needs to have <strong>Android 12</strong> installed,
+                    for the installer to work. You can install it <a href="https://flash.android.com/" target="_blank">here</a>.
+                    You’ll need an
                     <strong>unlocked</strong> model of one of the supported
                     devices:
                 </p>
