@@ -28,7 +28,7 @@
                         ? 'v-card--selected'
                         : null
                 "
-                @click="setType('clean')"
+                @click="showWarningDialog()"
             >
                 <v-card-title class="mt-n2">
                     <v-icon class="pr-2 py-2" color="rgba(0, 0, 0, 0.87)"
@@ -44,7 +44,7 @@
                     >
                 </v-card-subtitle>
             </v-card>
-
+            
             <v-card
                 outlined
                 max-width="16rem"
@@ -75,6 +75,7 @@
                     </v-card-subtitle>
                 </div>
             </v-card>
+            
         </div>
 
         <div class="d-flex justify-space-between flex-row-reverse">
@@ -89,6 +90,31 @@
             >
             <v-btn rounded x-large text @click="$bubble('prevStep')">Back</v-btn>
         </div>
+
+        <v-dialog v-model="showWarning" persistent>
+    <v-card outlined>
+        <v-card-title class="text-h6">
+            Warning
+        </v-card-title>
+        <v-card-text>
+            <p>
+                <strong class="red--text text--darken-2"
+                        >All data on your device will be lost. If you have been using the ethOS System Wallet from previous versions, back it up or transfer out all tokens/funds before doing a clean install.</strong
+                    >
+            </p>
+        </v-card-text>
+        <v-card-actions>
+            <v-spacer></v-spacer>
+            <v-btn text color="primary" @click="showWarning = false">
+                Cancel
+            </v-btn>
+            <v-btn text color="primary" @click="showWarning = false; setType('clean')">
+                Continue
+            </v-btn>
+        </v-card-actions>
+    </v-card>
+</v-dialog>
+
     </v-container>
 </template>
 
@@ -110,6 +136,7 @@ export default {
 
     data: () => ({
         firstSet: true,
+        showWarning: false,
     }),
 
     watch: {
@@ -130,6 +157,9 @@ export default {
             }
 
             this.saEvent(`install_type__${newType}`);
+        },
+        showWarningDialog() {
+            this.showWarning = true;
         },
     },
 };

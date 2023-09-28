@@ -11,7 +11,7 @@
                         $root.$data.RELEASE_VARIANTS.beta.suffix
                     }}
                     on your
-                    {{ getDeviceName($root.$data.product) }}.
+                    Phone.
                 </p>
                 <p v-if="$root.$data.installType === 'clean'">
                     Because you’re doing a clean install to switch from another

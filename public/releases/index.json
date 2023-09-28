@@ -1,22 +1,28 @@
 {
     "latest": {
         "blueline": [{
-            "version": "1.0.0",
+            "version": "2.1.0",
             "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_blueline_1.zip",
-            "description": "ethOS 1.0"
-        }],
-        "barbet": [{
-            "version": "1.0.0",
-            "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_barbet_1.zip",
-            "description": "ethOS 1.0"
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS_webinstaller_blueline_testEnc.zip",
+            "description": "ethOS 2.1"
         }],
         "crosshatch": [{
-            "version": "1.0.0",
+            "version": "2.1.0",
             "variant": "minimal",
-            "url": "https://storage.googleapis.com/ethos_binaries/ethOS2_crosshatch_1.zip",
-            "description": "ethOS 1.0"
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS_webinstaller_crosshatch_testEnc.zip",
+            "description": "ethOS 2.1"
+        }],
+        "barbet": [{
+            "version": "2.1.0",
+            "variant": "minimal",
+            "url": "https://storage.googleapis.com/ethos_binaries/ethOS_webinstaller_barbet_testEnc.zip",
+            "description": "ethOS 2.1"
+        }],
+        "panther": [{
+            "version": "2.1.0",
+            "variant": "minimal",
+            "url": "http://192.168.178.33:8080/releases/panther-factory-2023092800.zip",
+            "description": "ethOS 2.1"
         }]
     }
 }

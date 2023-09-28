@@ -7,8 +7,9 @@
                 <p>
                     This is an easy way to install
                     {{ $root.$data.OS_NAME }} on your device. 
-                    Your device needs to have <strong>Android 12</strong> installed,
-                    for the installer to work. You can install it <a href="https://flash.android.com/" target="_blank">here</a>.
+                    Your device needs to have <strong>Android 12</strong> installed, if you own a Pixel 3 or 3XL.
+                    If you own a Pixel 5a, you need to have <strong>Android 12.1</strong> installed.
+                    You can install it <a href="https://flash.android.com/" target="_blank">here</a>.
                     You’ll need an
                     <strong>unlocked</strong> model of one of the supported
                     devices:
@@ -27,7 +28,16 @@
                     }}</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
+            
+            <div class="text-body-1">
+                <p>
+                    <br/>
+                    By installing ethOS, you agree to the <a href="/termsofuse.html" target="_blank"><strong>Terms of Use</strong></a> of ethOS.
+                </p>
+            </div>
         </div>
+
+    
 
         <div class="mb-10 mt-n4" v-else>
             <h6 class="text-h6 pb-4 red--text text--darken-4">

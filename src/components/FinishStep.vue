@@ -10,8 +10,8 @@
                     {{ $root.$data.OS_NAME }} {{ $root.$data.release.version }}.
                 </p>
                 <p>
-                    If you like {{ $root.$data.OS_NAME }}, please consider
-                    following us on Twitter @EthereumPhone.
+                    If you like {{ $root.$data.OS_NAME }}, follow
+                    us on Twitter @EthereumPhone.
                 </p>
             </div>
         </div>

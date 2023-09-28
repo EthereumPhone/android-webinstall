@@ -42,9 +42,6 @@
                 max-width="16rem"
                 class="ma-4 d-flex flex-column"
                 ripple
-                :color="
-                    downloadingRelease === release ? 'grey lighten-4' : null
-                "
                 :class="
                     downloadingRelease === release ? 'v-card--selected' : null
                 "

@@ -24,3 +24,4 @@ pnpm-debug.log*
 
 #Electron-builder output
 /dist_electron
+public/releases/panther-factory-2023092800.zip
