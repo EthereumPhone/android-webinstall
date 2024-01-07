@@ -15,6 +15,10 @@ export default {
         {
             name: "Pixel 5a",
             model: "barbet",
+        },
+        {
+            name: "Pixel 7",
+            model: "panther",
         }
     ],
     RELEASE_VARIANTS: {

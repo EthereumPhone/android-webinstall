@@ -1,5 +1,5 @@
 import { XhrError } from "./download";
-import { TimeoutError } from "mhaas-android-fastboot";
+import { TimeoutError } from "android-fastboot";
 
 export function isConnectSelectError(err) {
     return (

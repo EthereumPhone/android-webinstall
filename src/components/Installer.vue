@@ -440,7 +440,7 @@
 </style>
 
 <script>
-import * as fastboot from "mhaas-android-fastboot";
+import * as fastboot from "android-fastboot";
 import { BlobStore } from "../core/download";
 import ConnectBanner from "./ConnectBanner";
 import PrepareStep from "./PrepareStep";
